@@ -1,0 +1,20 @@
+{
+  "cover": "com.ulanzi.soundpad.ulanziPlugin/assets/Soundpad.png",
+  "screenshots": [
+    "com.ulanzi.soundpad.ulanziPlugin/assets/Soundpad.png",
+    "com.ulanzi.soundpad.ulanziPlugin/assets/Soundpad1.png",
+    "com.ulanzi.soundpad.ulanziPlugin/assets/Soundpad2.png"
+  ],
+  "longDescription": "Control Soundpad through its remote control named pipe.",
+  "deviceTypes": [
+    "deck"
+  ],
+  "tags": [
+    "soundpad",
+    "audio",
+    "soundboard",
+    "streaming",
+    "streamdeck",
+    "ulanzi"
+  ]
+}
