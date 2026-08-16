@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Soundpad</title>
+  <link rel="stylesheet" href="../libs/css/udpi.css">
+</head>
+<body>
+  <div class="udpi-wrapper hidden">
+    <form id="property-inspector">
+      <div class="udpi-item">
+        <div class="udpi-item-label">Som</div>
+        <div class="udpi-item-value">
+          <select id="soundSelect" name="soundNumber" class="udpi-item-child">
+            <option value="">— Selecione um som —</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="udpi-item">
+        <div class="udpi-item-label">Soundpad</div>
+        <div class="udpi-item-value">
+          <button id="refreshSounds" type="button" class="udpi-item-child">Atualizar lista</button>
+        </div>
+      </div>
+
+      <div class="udpi-item">
+        <div class="udpi-item-label">Status</div>
+        <div class="udpi-item-value">
+          <span id="status">Conectando ao Soundpad...</span>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="../libs/js/constants.js"></script>
+  <script src="../libs/js/eventEmitter.js"></script>
+  <script src="../libs/js/timers.js"></script>
+  <script src="../libs/js/utils.js"></script>
+  <script src="../libs/js/ulanzideckApi.js"></script>
+  <script src="./inspector.js"></script>
+</body>
+</html>

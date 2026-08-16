@@ -1,0 +1,9 @@
+{
+  "name": "com.ulanzi.soundpad.ulanziPlugin",
+  "version": "1.1.0",
+  "type": "module",
+  "private": true,
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "Author": "Dhiego",
+  "Name": "Soundpad",
+  "Description": "Control Soundpad through its remote control named pipe.",
+  "Icon": "assets/soundpad.png",
+  "Category": "Soundpad",
+  "CategoryIcon": "assets/soundpad.png",
+  "Version": "1.1.0",
+  "UUID": "com.ulanzi.soundpad.ulanziPlugin",
+  "Type": "JavaScript",
+  "PrivateAPI": true,
+  "SupportedInMultiActions": false,
+  "CodePath": "plugin/app.js",
+  "Actions": [
+    {
+      "Name": "Play Sound",
+      "Icon": "assets/soundpad.png",
+      "UUID": "com.ulanzi.soundpad.ulanziPlugin.playSound",
+      "PropertyInspectorPath": "property-inspector/inspector.html",
+      "States": [
+        {
+          "Name": "Sound",
+          "Image": "assets/soundpad.png"
+        }
+      ],
+      "Controllers": [
+        "Keypad"
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Select and play a Soundpad sound."
+    }
+  ],
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "Software": {
+    "MinVersion": "2.1.0"
+  }
+}
